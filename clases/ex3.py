@@ -17,13 +17,12 @@ class Rectangle(Shape):
     def area(self):
         return self.length * self.width
 
-# Test the classes
-if __name__ == "__main__":
-    shape = Shape()
-    print("Area of shape:", shape.area())
+shape = Shape()
+print("Area of shape:", shape.area())
 
-    square = Square(5)
-    print("Area of square:", square.area())
+square = Square(5)
+print("Area of square:", square.area())
 
-    rectangle = Rectangle(4, 6)
-    print("Area of rectangle:", rectangle.area())
+rectangle = Rectangle(4, 6)
+print("Area of rectangle:", rectangle.area())
+

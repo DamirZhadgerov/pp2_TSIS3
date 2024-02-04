@@ -8,8 +8,6 @@ class StringProcessor:
     def printString(self):
         print("String in uppercase:", self.input_string.upper())
 
-# Test the class
-if __name__ == "__main__":
-    processor = StringProcessor()
-    processor.getString()
-    processor.printString()  
+processor = StringProcessor()
+processor.getString()
+processor.printString()

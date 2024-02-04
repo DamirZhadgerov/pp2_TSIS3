@@ -1,7 +1,6 @@
 import random
 
 def guess_the_number():
-    # Generate a random number between 1 and 20
     secret_number = random.randint(1, 20)
 
     print("Hello! What is your name?")
@@ -9,7 +8,6 @@ def guess_the_number():
 
     print(f"Well, {name}, I am thinking of a number between 1 and 20.")
 
-    # Initialize the number of guesses
     num_guesses = 0
 
     while True:
@@ -25,5 +23,4 @@ def guess_the_number():
             print(f"Good job, {name}! You guessed my number in {num_guesses} guesses!")
             break
 
-# Call the function to play the game
 guess_the_number()

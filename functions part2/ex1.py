@@ -1,9 +1,7 @@
 def is_above_5_5(movie):
     return movie["imdb"] > 5.5
 
-# Test the function
 if __name__ == "__main__":
-    # Example usage
     movie = {
         "name": "Usual Suspects",
         "imdb": 7.0,

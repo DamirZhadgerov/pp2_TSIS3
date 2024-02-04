@@ -14,7 +14,6 @@ def filter_prime(numbers):
     prime_numbers = [num for num in numbers if is_prime(num)]
     return prime_numbers
 
-# Test the function
 if __name__ == "__main__":
     numbers = input("Enter a list of numbers separated by spaces: ").split()
     numbers = [int(num) for num in numbers]

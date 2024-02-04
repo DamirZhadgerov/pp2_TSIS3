@@ -9,11 +9,8 @@ class Square(Shape):
     def area(self):
         return self.length * self.length
 
-# Test the classes
-if __name__ == "__main__":
-    shape = Shape()
-    print("Area of shape:", shape.area())
+square = Square(5)
+print("Area of the square:", square.area())
 
-    square = Square(5)
-    print("Area of square:", square.area())
-
+shape = Shape()
+print("Area of the shape:", shape.area())

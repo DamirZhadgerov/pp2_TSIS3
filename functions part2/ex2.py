@@ -2,9 +2,7 @@ def get_high_rated_movies(movie_list):
     high_rated_movies = [movie for movie in movie_list if movie["imdb"] > 5.5]
     return high_rated_movies
 
-# Test the function
 if __name__ == "__main__":
-    # Example movie list
     movies = [
         {
             "name": "Usual Suspects", 
@@ -21,7 +19,6 @@ if __name__ == "__main__":
             "imdb": 9.0,
             "category": "Adventure"
         },
-        # Add more movies here...
     ]
 
     high_rated_movies = get_high_rated_movies(movies)

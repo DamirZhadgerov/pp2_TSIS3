@@ -20,16 +20,12 @@ class Account:
         else:
             print("Invalid withdrawal amount.")
 
-# Test the Account class
-if __name__ == "__main__":
-    # Instantiate the account
-    my_account = Account("John")
 
-    # Make several deposits
-    my_account.deposit(100)
-    my_account.deposit(50)
+my_account = Account("John")
 
-    # Make several withdrawals
-    my_account.withdraw(30)
-    my_account.withdraw(80)
-    my_account.withdraw(60)
+my_account.deposit(100)
+my_account.deposit(50)
+
+my_account.withdraw(30)
+my_account.withdraw(80)
+my_account.withdraw(60)
